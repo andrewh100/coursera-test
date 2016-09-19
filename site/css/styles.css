@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  color: #ccc;
+  background-color: #ccc;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** Nav Bar **/
+#header-nav {
+  background-color: skyblue;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ccc;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: blue;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ border: 1px solid blue;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+.glyphicon-cutlery {
+  color: blue;
+}
+
+
+/** End of Nav Bar **/
+h1{
+  color: blue;
+  text-shadow: 3px 3px 3px #000;
+}
+h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #000;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  text-shadow: 2px 2px 2px #000;
+}
+.row > div {
+  border: 2px #fff;
+  background-color: darkblue;
+  color: #fff;
+  margin-left: .5%;
+  margin-right: .5%;
+  margin-bottom: 20px;
+}
+span { 
+ width: 100%;
+text-align: center;
+margin-top: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 110px;
+  font-weight: bold;
+}
+
+.clearfix {
+  clear: both;
+}
+@media (min-width: 992px) {
+ .col-md-12 {
+  align: center;
+      width: 100%;
+  }
